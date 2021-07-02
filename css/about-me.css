@@ -1,0 +1,30 @@
+:root {
+  --first-color: #222831;
+  --seccond-color: #233142;
+  --third-color: #f95959;
+  --fourth-color: #eeeeee;
+}
+.section-aboutme {
+  height: 100vh;
+  text-align: center;
+}
+.section-aboutme__h2 {
+  color: var(--third-color);
+  font-size: 30px;
+  font-family: Roboto;
+  font-weight: 900;
+  font-style: italic;
+}
+.section-aboutme__img {
+  border-radius: 50%;
+  height: 200px;
+  width: 200px;
+}
+.section-aboutme__p {
+  color: var(--fourth-color);
+  margin: 20px 0 0 0;
+  padding: 0 20px;
+}
+.section-aboutme__span {
+  color: var(--third-color);
+}

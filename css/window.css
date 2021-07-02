@@ -1,0 +1,41 @@
+:root {
+  --first-color: #222831;
+  --seccond-color: #233142;
+  --third-color: #f95959;
+  --fourth-color: #eeeeee;
+}
+
+.window__quit {
+  height: 100vh;
+  width: 100vw;
+  position: fixed;
+  top: 0;
+  background: #ccc;
+  transform: translateY(0%);
+  transition: 1s linear all;
+  text-align: center;
+}
+.window__h2 {
+  color: var(--third-color);
+  font-family: "Roboto";
+  font-size: 50px;
+  font-weight: 900;
+  font-style: italic;
+}
+.window__p {
+  font-size: 20px;
+  font-family: "Roboto";
+  font-weight: 300;
+  font-style: italic;
+}
+
+.window {
+  visibility: hidden;
+  transition: 1s linear all;
+  transform: translateY(-200%);
+}
+.window__exit {
+  text-align: right;
+  margin: 20px 20px 0 0;
+  font-size: 30px;
+}

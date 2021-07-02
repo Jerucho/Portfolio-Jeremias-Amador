@@ -1,0 +1,32 @@
+:root {
+  --first-color: #222831;
+  --seccond-color: #233142;
+  --third-color: #f95959;
+  --fourth-color: #eeeeee;
+}
+
+.section-portfolio {
+  display: flex;
+  text-align: left;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-direction: column;
+  flex-wrap: wrap;
+  margin: 0 0 90px 0;
+}
+.section-portfolio__h2-portfolio {
+  /*align-self: start;*/
+  padding: 20px 0 0 0;
+  color: var(--third-color);
+  font-size: 30px;
+  font-family: Roboto;
+  font-weight: 900;
+  font-style: italic;
+}
+
+.section-portfolio__article {
+  height: 150px;
+  width: 250px;
+  margin: 20px 0;
+  background-color: var(--fourth-color);
+}

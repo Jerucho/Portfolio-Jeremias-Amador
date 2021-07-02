@@ -1,0 +1,43 @@
+:root {
+  --first-color: #222831;
+  --seccond-color: #233142;
+  --third-color: #f95959;
+  --fourth-color: #eeeeee;
+}
+.section {
+  box-sizing: border-box;
+  display: flex;
+  flex-wrap: wrap;
+  height: 100vh;
+  background-color: var(--first-color);
+  justify-content: center;
+  align-items: center;
+}
+.section__article {
+  margin: -100px 0 0 20px;
+}
+.section__h2-hey {
+  margin: 0 0 -40px 0;
+  color: var(--third-color);
+  font-family: "Roboto";
+  font-weight: 900;
+  font-style: italic;
+}
+.section__h2-jeremias {
+  color: var(--fourth-color);
+  font-size: 50px;
+  font-family: "Roboto";
+  font-weight: 900;
+  font-style: italic;
+}
+
+/* ------------ */
+
+@media screen and (min-width: 720px) {
+  .section {
+    margin: 20px 0 0 0;
+  }
+  .section__h2-hey {
+    color: var(--third-color);
+  }
+}

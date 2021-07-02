@@ -1,0 +1,39 @@
+:root {
+  --first-color: #222831;
+  --seccond-color: #233142;
+  --third-color: #f95959;
+  --fourth-color: #eeeeee;
+}
+.section-skills {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  align-content: center;
+  justify-content: center;
+}
+.section-skills__h2 {
+  text-align: center;
+  color: var(--third-color);
+  font-size: 30px;
+  font-family: Roboto;
+  font-weight: 900;
+  font-style: italic;
+}
+
+.section-skills__article {
+  background-color: var(--fourth-color);
+  border-radius: 30px;
+  margin: 20px 0;
+}
+
+.section-skills__img {
+  padding: 10px;
+}
+#css,
+#html,
+#react,
+#js,
+#node {
+  height: 150px;
+  border-color: red;
+}
