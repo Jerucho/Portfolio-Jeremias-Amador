@@ -7,6 +7,8 @@
 @import url(about-me.css);
 @import url(skills.css);
 @import url(window.css);
+@import url(contact-me.css);
+@import url(footer.css);
 /* FONTS */
 @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
@@ -16,6 +18,7 @@
 body {
   font-family: Roboto, Helvetica, sans-serif;
   background-color: #222831;
+  max-height: 120vh;
 }
 
 :root {
@@ -23,4 +26,25 @@ body {
   --seccond-color: #233142;
   --third-color: #f95959;
   --fourth-color: #eeeeee;
+}
+
+/* width */
+::-webkit-scrollbar {
+  width: 5px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #ccc;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #888;
+  height: 200px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
 }

@@ -28,7 +28,10 @@
             <a href="#about-me" class="header__a">About Me</a>
           </li>
           <li class="header__li">
-            <a href="" class="header__a">Contact Me</a>
+            <a href="#skills" class="header__a">Skills</a>
+          </li>
+          <li class="header__li">
+            <a href="#contact-me" class="header__a">Contact Me</a>
           </li>
         </ul>
       </nav>
@@ -42,16 +45,19 @@
         </div>
         <ul class="header-responsive__ul">
           <li class="header-responsive__li">
-            <a href="" class="header-responsive__a">Home</a>
+            <a href="#home" class="header-responsive__a">Home</a>
           </li>
           <li class="header-responsive__li">
-            <a href="" class="header-responsive__a">Portofolio</a>
+            <a href="#portfolio" class="header-responsive__a">Portofolio</a>
           </li>
           <li class="header-responsive__li">
-            <a href="" class="header-responsive__a">About Me</a>
+            <a href="#about-me" class="header-responsive__a">About Me</a>
           </li>
           <li class="header-responsive__li">
-            <a href="" class="header-responsive__a">Contact Me</a>
+            <a href="#skills" class="header-responsive__a">Skills</a>
+          </li>
+          <li class="header-responsive__li">
+            <a href="#contact-me" class="header-responsive__a">Contact Me</a>
           </li>
         </ul>
       </nav>
@@ -68,8 +74,8 @@
 
     <!-- Portfolio -->
 
-    <section class="section-portfolio" id="portfolio">
-      <h2 class="section-portfolio__h2-portfolio">Portfolio</h2>
+    <h2 class="section-portfolio__h2-portfolio" id="portfolio">Portfolio</h2>
+    <section class="section-portfolio">
       <article class="section-portfolio__article"></article>
       <article class="section-portfolio__article"></article>
       <article class="section-portfolio__article"></article>
@@ -80,8 +86,8 @@
 
     <!-- About Me -->
 
-    <section class="section-aboutme" id="about-me">
-      <h2 class="section-aboutme__h2">About Me</h2>
+    <h2 class="section-aboutme__h2" id="about-me">About Me</h2>
+    <section class="section-aboutme">
       <article class="section-aboutme__article">
         <img
           src="https://www.news24hd.com/thumb/22/e/e/4/ee4e09b02bdfdeb498f8e7ae0aa6bc5d.jpg"
@@ -101,8 +107,8 @@
 
     <!-- Skills -->
 
+    <h2 class="section-skills__h2" id="skills">Skills</h2>
     <section class="section-skills">
-      <h2 class="section-skills__h2">Skills</h2>
       <article class="section-skills__article">
         <img src="/img/Html.svg" alt="" class="section-skills__img" id="html" />
       </article>
@@ -135,6 +141,60 @@
       </article>
     </section>
 
+    <!-- Contact Form / Contact Me -->
+
+    <h2 class="form-container__h2" id="contact-me">Contact Me</h2>
+    <div class="form-container">
+      <form action="" class="form-container__form">
+        <input type="text" class="form-container__input" placeholder="Name" />
+        <input type="text" class="form-container__input" placeholder="Email" />
+        <textarea
+          class="form-container__textarea"
+          placeholder="Message"
+        ></textarea>
+        <br />
+        <button type="submit" class="form-container__button">Send</button>
+      </form>
+    </div>
+
+    <!-- Footer -->
+
+    <footer class="footer">
+      <div class="footer__div">
+        <p class="footer__p">
+          This website has been designed and developed by Jeremias Amador
+        </p>
+        <hr class="footer__hr" />
+        <ul class="footer__ul">
+          <li class="footer__li">
+            <a href="https://youtube.com" target="__blank" class="footer__a"
+              ><img
+                src="/img/Linkedin.svg"
+                class="footer__img"
+                alt="Linkedin Logo Svg"
+            /></a>
+          </li>
+          <li class="footer__li">
+            <a href="" class="footer__a" target="__blank"
+              ><img
+                src="/img/Instagram.svg"
+                alt="Instagram Logo Svg"
+                class="footer__img"
+            /></a>
+          </li>
+          <li class="footer__li">
+            <a href="" class="footer__a" target="__blank"
+              ><img
+                src="/img/Twitter.svg"
+                alt="Twitter-Logo-Svg"
+                class="footer__img"
+            /></a>
+          </li>
+        </ul>
+      </div>
+    </footer>
+
+    <!-- Window to show info about things -->
     <div class="window">
       <div class="window__exit">X</div>
       <h2 class="window__h2"></h2>
