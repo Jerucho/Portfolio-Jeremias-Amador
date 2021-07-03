@@ -90,6 +90,10 @@ ul {
     color: var(--fourth-color);
   }
 
+  .header-responsive__a:hover {
+    border-bottom: 5px solid var(--third-color);
+    padding: 20px;
+  }
   .header-responsive__h2 {
     padding: 10px 40px;
     color: var(--fourth-color);
@@ -99,6 +103,3 @@ ul {
     display: none;
   }
 }
-
-/*
- */

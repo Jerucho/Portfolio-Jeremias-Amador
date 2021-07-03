@@ -10,7 +10,7 @@ if (burguer) {
 }
 
 // ------------------ WINDOW ----------------------
-const ventana = document.querySelector(".window");
+/* const ventana = document.querySelector(".window");
 const iconos = document.querySelectorAll(".section-skills__img");
 
 // - Inner
@@ -74,3 +74,4 @@ if (exit) {
     ventana.classList.toggle("window");
   });
 }
+ */
