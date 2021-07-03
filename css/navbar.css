@@ -87,12 +87,12 @@ ul {
   .header-responsive__a {
     padding: 0 20px;
     text-decoration: none;
+    padding: 20px;
     color: var(--fourth-color);
   }
 
   .header-responsive__a:hover {
-    border-bottom: 5px solid var(--third-color);
-    padding: 20px;
+    border-bottom: 1px solid var(--third-color);
   }
   .header-responsive__h2 {
     padding: 10px 40px;
