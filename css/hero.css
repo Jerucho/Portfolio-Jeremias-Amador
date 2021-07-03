@@ -38,6 +38,17 @@
     margin: 20px 0 0 0;
   }
   .section__h2-hey {
-    color: var(--third-color);
+    font-size: 30px;
+  }
+  .section__h2-jeremias {
+    font-size: 60px;
+  }
+}
+@media screen and (min-width: 1024px) {
+  .section__h2-hey {
+    font-size: 50px;
+  }
+  .section__h2-jeremias {
+    font-size: 80px;
   }
 }
