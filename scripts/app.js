@@ -15,7 +15,7 @@ const iconos = document.querySelectorAll(".section-skills__img");
 
 // - Inner
 
-const h2 = document.querySelector(".window__h2");
+/* const h2 = document.querySelector(".window__h2");
 const p = document.querySelector(".window__p");
 const phrase = [
   {
@@ -73,5 +73,3 @@ if (exit) {
     ventana.classList.toggle("window__quit");
     ventana.classList.toggle("window");
   });
-}
- */
